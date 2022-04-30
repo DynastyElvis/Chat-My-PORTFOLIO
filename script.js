@@ -82,11 +82,11 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I'm a Full-Stack Software Developer with broad expertise in Cybersecurity, IoT and Cloud Computing <br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I'm a Full-Stack Software Developer with broad expertise in Cybersecurity, IoT and Cloud Computing <br><br>Elvis is well conversant in the following fields:<br><span class='bold'>MS Azure DevOps<br>CCNA- Networking & Automation<br>AWS Data Analytics<br>Google Data Analytics<br>Internet of Things<br>css,html,angular,flask/django/pyhon<br>UX/UI Design<br>CCNA Datacom</span><br><br>I've experince in the following frameworks :<span class='bold'><br>Laravel Framework<br>Flutter<br>ReactJs<br></span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Lenovo L450 Intel® Core™ i7 Processor Intel<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
-            sendTextMessage("Currently at Maseno University<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
+            sendTextMessage("Moringa School- 2022 Jan to Date<br><br>Maseno University Main Campus<br>Passing Year : 2022<br><br>Equator Institute of Technology<br>Laravel Framework Software Dev<br>Passing Year:2022<br><br>eMobillis Institute<br>Full-stack Software Development<br>Passing Year:2022<br><br>Mathematics for Computer Science<br>Univ. of London, Coursera<br><br>AWS Machine Learning Fundamentals<br>Udacity<br><br>Software Security<br>Univ. of Maryland, Coursera<br><br>Data Scientist's Toolbox<br>Coursera<br><br>Modern Python Programming Essentials<br>AWS<br><br>Artificial Intelligence and Machine Learning<br>Techmindset Africa AI<br><br>Internet of Things (IoT)<br>Strathmore University<br><br>Menengai High School<br>KCSE Certification");
             break;
 
         case "address":
