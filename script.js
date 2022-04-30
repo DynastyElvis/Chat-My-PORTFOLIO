@@ -72,7 +72,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Kipkemoi Elvis</a>.</span><br><br>I am a Software Engineering student at <span class='bold'>Moringa School 👨🏻‍💻📚</span><br><br> I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Kipkemoi Elvis</a>.</span><br><br>I am a Software Engineering student at <span class='bold'>Moringa School 👨🏻‍💻📚</span><br><br> I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the Computing sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
@@ -82,7 +82,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I'm a Full-Stack Software Developer with broad expertise in Cybersecurity, IoT and Cloud Computing <br><br>Elvis is well conversant in the following fields:<br><span class='bold'>MS Azure DevOps<br>CCNA- Networking & Automation<br>AWS Data Analytics<br>Google Data Analytics<br>Internet of Things<br>css,html,angular,flask/django/pyhon<br>UX/UI Design<br>CCNA Datacom</span><br><br>I've experince in the following frameworks :<span class='bold'><br>Laravel Framework<br>Flutter<br>ReactJs<br></span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Lenovo L450 Intel® Core™ i7 Processor Intel<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I'm a Full-Stack Software Developer with broad expertise in Cybersecurity, IoT and Cloud Computing <br><br>Elvis is well conversant in the following fields:<br><span class='bold'>MS Azure DevOps<br>CCNA- Networking & Automation<br>AWS Data Analytics<br>Google Data Analytics<br>Internet of Things<br>css,html,C,Java,Pyhon<br>UX/UI Design<br>CCNA Datacom</span><br><br>I've experince in the following frameworks :<span class='bold'><br>Laravel Framework<br>Flutter<br>ReactJs<br>Angular<br>Django/Flask<br></span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Lenovo L450 Intel® Core™ i7 Processor Intel<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
