@@ -39,6 +39,9 @@ function isEnter(event) {
     }
 }
 
+
+
+
 function sendMsg() {
     var input = document.getElementById("inputMSG");
     var ti = input.value;
@@ -72,7 +75,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Kipkemoi Elvis</a>.</span><br><br>I am a Software Engineering student at <span class='bold'>Moringa School 👨🏻‍💻📚</span><br><br> I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the Computing sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Kipkemoi Elvis</a>.</span><br><br>I am a professional software and DevOps engineer with 2 years of experience in the IT industry.<span class='bold'>I have a deep understanding of various programming languages, software development methodologies and tools for continuous integration and delivery.</span><br><br>                  So I would be pleased to chat about job openings in the Computing sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
@@ -82,7 +85,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I'm a Full-Stack Software Developer with broad expertise in Cybersecurity, IoT and Cloud Computing <br><br>Elvis is well conversant in the following fields:<br><span class='bold'>MS Azure DevOps<br>CCNA- Networking & Automation<br>AWS Data Analytics<br>Google Data Analytics<br>Internet of Things<br>css,html,C,Java,Pyhon<br>UX/UI Design<br>CCNA Datacom</span><br><br>I've experince in the following frameworks :<span class='bold'><br>Laravel Framework<br>Flutter<br>ReactJs<br>Angular<br>Django/Flask<br></span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Lenovo L450 Intel® Core™ i7 Processor Intel<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>     Professional Software and DevOps engineer Committed to leveraging cutting-edge Tech. <br><br>Elvis is well conversant in the following fields:<br><br><span class='bold'>Frontend & UI/UX- Angular, ReactJS and VueJs<br>Backend Stack- Laravel, Django, Flask, Java and C<br>Hardware & IT Support<br>Data Analytics & IoT using ML<br>DevOps, Version Control, Git and Linux OS<br></span><br><br>My Bootcamps and Certifications<span class='bold'><br><br>HCIA Datacom<br>Foundations of UX/UI design<br>Azure DevOps- Microsoft<br>Game of Learners Clinics IoT- Microsoft<br>Technical IT support - Google<br>Mathematics for Computer Science UoL Goldsmiths<br>Data Analytics - Coursera<br>AI & ML Fundamentals - Techmindset<br>Modern Python Prog. essentials - AWS<br>Communication Skills - Moringa<br>Technical IT support - Google<br>Data Scientist Toolbox- Univ of J.<br>CCNA- Network, Security & Automation<br></span><br><br>Conversant with <span class='bold'>Linux and Ubuntu Servers</span><br>Bitbucket for Git and Version Control<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
